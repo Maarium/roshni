@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#nav-main{
+    display: flex;
+    font-size: 18px;
+}
+.logo img{
+    width: 150px;
+}
+.navbar-nav li a{
+    color: black;
+}
+.navbar-nav li a:hover{
+    color: #E28029;
+    background: none;
+}
+#nav-donate a{
+text-decoration: none;
+color: #ffffff;
+}
+.hero-main{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/edu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#hero-heading{  
+    font-weight: 1000;
+    font-size: 32px;
+    margin: 0;   
+}
+#hero-description{
+width: 70%;
+margin: 0;
+}
+#hero-donate{
+margin-top: 20px;
+align-content: center;
+}
+#mission-head{
+color: #E28029;
+font-weight: 700;
+}
+#Mission{
+margin:80px 20px;
+}
+#mission-main{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+#mission-para{
+width: 40%;
+}
+.mission-pic{
+    width: 40%;
+}
+.mission-pic img{
+width: 100%;
+}
+#Help{
+    margin-top: 50 0px 50px 0px;
+   padding: 40px;
+}
+.card{
+    margin: 15px 0px;
+    padding: 5px;
+    border-radius: 10px;
+    background: none;
+    color: black;
+    border: 2px solid #E28029;
+}
+.card:hover{
+    background-color: rgb(6, 52, 6);
+    color: #ffffff;
+    border:none;
+}
+#donate-bank{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0px 50px 0px;
+    justify-content: space-evenly;
+}
+#counter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+#counter-cards{
+    text-align: center;
+    width: 30%;
+    padding: 50px 0px;
+    color: #ffffff;
+    background-color: rgb(6, 52, 6);
+}
+#counter-cards:hover{
+        background-color: #E28029;
+
+}
+#activities{
+    margin: 20px;
+}
+.contact-form{ 
+    max-width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin: 0px 40px;
+}
+.contact-form input{
+    border: 1px solid #E28029;
+    border-radius: 10px;
+    padding: 10px;
+}
+.contact-form button{
+    width: 100%;
+    background-color: #E28029;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    color: #ffffff;
+}
+#mess{
+    height: 80px;
+}
+#don{
+    background: none;
+    border: 2px solid #E28029;
+    color: #E28029;
+}
+.acts{
+    margin: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gallery{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.acts img{
+    width: 250px;
+    margin-bottom: 1px;
+    
+}
+#foot{
+    background-color: #bbb9b9;
+    color: #000000;
+}
+#links p a{
+    /* text-decoration: none; */
+}
+@media (max-width:1025px) {
+    #mission-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .mission-pic{
+        width: 100%;
+    }
+    #mission-para{
+        width: 100%;
+    }
+}
+@media (max-width:786px) {
+   #counter-cards{
+    display: flex;
+    
+    flex-direction: column;
+    width: 100%;
+   }
+   .contact-form{
+    margin: 0px 0px;
+   }
+
+}
+@media (max-width:500px) {
+    #don-cards{
+width: 100%;
+justify-content: center;
+} 
+}
+
